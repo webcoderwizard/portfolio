@@ -17,5 +17,16 @@ const config: Config = {
     },
   },
   plugins: [daisyui],
+
+  daisyui: {
+    themes: true,
+    darkTheme: "dark", // name of one of the included themes for dark mode
+    base: true,
+    styled: true,
+    utils: true,
+    prefix: "",
+    logs: true,
+    themeRoot: ":root",
+  }
 };
 export default config;
